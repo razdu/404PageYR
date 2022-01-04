@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Space Mono", monospace;
 }
 :root {
   --fz: 1.8em;
@@ -41,6 +40,7 @@
   padding-left: 4vw;
   padding-right: 4vw;
   margin-right: 4vw;
+  font-family: "Space Mono", monospace;
 }
 .message h1 {
   color: var(--text-color);
@@ -65,4 +65,16 @@
   color: #ffffff;
   padding: 20px;
   font-weight: bold;
+}
+.footer {
+  position: absolute;
+  bottom: 25px;
+  color: #bdbdbd;
+  font-family: Montserrat, sans-serif;
+  font-size: 1em;
+  line-height: 17px;
+}
+.footer span {
+  font-weight: bolder;
+  text-decoration: underline;
 }
