@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+:root {
+  --fz: 1.8em;
+  --text-color: #333333;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 98vh;
+  flex-direction: row;
+}
+/* @media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    height: 100%;
+  }
+} */
+.menu {
+  position: absolute;
+  font-family: "Inconsolata", monospace;
+  top: 40px;
+  left: 40px;
+  color: var(--text-color);
+  font-size: var(--fz);
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.front-image img {
+  width: 700px;
+  margin-left: 8vw;
+}
+.message {
+  width: 40vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  margin-right: 4vw;
+}
+.message h1 {
+  color: var(--text-color);
+  font-size: 5rem;
+  font-style: normal;
+  letter-spacing: -0.035em;
+  font-weight: bold;
+  line-height: 95px;
+  width: 30vw;
+}
+.message p {
+  padding: 40px 0;
+  color: #4f4f4f;
+  width: 20vw;
+  font-size: var(--fz);
+  line-height: 2em;
+  letter-spacing: -0.035em;
+}
+.message button {
+  width: fit-content;
+  background-color: var(--text-color);
+  color: #ffffff;
+  padding: 20px;
+  font-weight: bold;
+}
